@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "neurocluster"  # Required
+dynamic = ["version"]
+description = "clustering and embedding utilities for neuro projects"  # Optional
+readme = "README.md" 
+license = {file = "LICENSE"}
+requires-python = ">=3.7"
+authors = [
+  {name = "Henry Watkins", email = "h.watkins@ucl.ac.uk" } # Optional
+]
+keywords = ["NLP", "neuroradiology"]
+
+classifiers = []
+
+
+dependencies = [
+  "spacy",
+  "scikit-learn",
+  "torch",
+  "pandas",
+  "numpy",
+  "numba",
+  "negspacy",
+]
+
+[project.urls]
+#Documentation = "https://github.com/unknown/neuronlp#readme"
+#Issues = "https://github.com/unknown/neuronlp/issues"
+#Source = "https://github.com/unknown/neuronlp"
+
+[tool.hatch.version]
+path = "src/neurocluster/__about__.py"
+
+
+
+[tool.hatch.envs.default]
+dependencies = [
+  "pytest",
+  "black",
+  "isort",
+]
+[tool.hatch.envs.default.scripts]
+test = "pytest tests"
+fmt = "black . ; isort ."
