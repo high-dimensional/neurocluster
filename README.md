@@ -1,21 +1,14 @@
 # neurocluster
 
-[![PyPI - Version](https://img.shields.io/pypi/v/neurocluster.svg)](https://pypi.org/project/neurocluster)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/neurocluster.svg)](https://pypi.org/project/neurocluster)
-
------
-
-**Table of Contents**
-
-- [Installation](#installation)
-- [License](#license)
+A repository for training latent repsresentations of neuroadiological reports
 
 ## Installation
 
+Clone the repository and 
 ```console
-pip install neurocluster
+pip install -e .
 ```
 
-## License
+## Usage
 
-`neurocluster` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+The `train_report_ae.py` script is used to train an AE model from a corpus of spacy Docs.
