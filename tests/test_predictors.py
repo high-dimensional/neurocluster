@@ -11,7 +11,7 @@ from neurocluster.predictors import *
 from neurocluster.vectorizers import EntityCountVectorizer
 
 report_sample = [
-    "Clinical Indications: Post-op tumour excision. ?residual tumour. pre and post contrast MRI head please on Thursday. Findings: Comparison is made with the previous MR studies. There has been interval resection of the previously shown enhancing tumour centred on the superior aspects of the posterior ethmoid and sphenoid sinuses, with involvement of the anterior cranial fossa. Heterogeneous signal is demonstrated within the surgical bed, along with areas of faint T1 shortening and curvilinear enhancement, which are likely postsurgical in nature at this stage. Allowing for these changes, no residual or recurrent tumour is convincingly demonstrated, although this will be clarified on subsequent follow-up imaging. Note is made of mild thickening and enhancement of the anteroinferior aspect of the falx cerebri. The remaining intracranial appearances are stable. The previous left frontal resection cavity is again shown. Note is also again made of a few non-specific foci of T2 hyperintensity within the cerebral white matter. Postsurgical changes are noted in the paranasal sinuses."
+    "placeholder"
 ]
 
 
